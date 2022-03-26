@@ -1,0 +1,212 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --open:"Proxima Nova";
+    --reng1:#f1f7fc;
+    --reng2:#4f4f4f;
+    --reng3:#04a9f4;
+    --reng4:#3162a2;
+
+}
+
+
+body{
+    background-color: var(--reng3);
+}
+
+#general{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container{
+    max-width: 350px;
+    margin: auto;
+    
+}
+
+
+/* one css start */
+
+#one{
+    background-color: var(--reng1);
+    width:440px;
+    border-radius: 6px 6px 0 0 ;
+   
+}
+
+#one h1{
+    
+font: bold 24px var(--open);
+line-height: 28px;
+color: var(--reng2);
+padding-top: 40px;
+padding-bottom: 30px;
+
+}
+
+
+#one form input{
+
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px 0 15px 20px;
+    background-color: rgba(255,255,255,0.7019607843137254);
+    color: var(--reng2);
+    border: 1px solid #d8d8d8;
+    font: 300px 18px var(--open)
+    
+   
+
+}
+
+#one form input::placeholder{
+    color:var(--reng2);
+    
+}
+
+#one form input::placeholder:nth-child(1){
+    font: 300px 18px var(--open);
+    color: var(--reng2)
+
+}
+
+
+#one form input:nth-child(1){
+   margin-bottom: 50px;
+}
+
+
+#one form input:nth-child(2){
+  margin-bottom: 50px;
+  
+  
+}
+
+#one form input:nth-child(3){
+    width: 20px;
+    height: 20px;
+padding: 20px 20px;
+
+}
+
+
+#one form label:nth-child(1){
+    font: bold 14px var(--open);
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: var(--reng2);
+
+}
+
+#one form label:nth-child(2){
+    font: bold 14px var(--open);
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: var(--reng2);
+
+}
+
+#one form label:nth-child(3){
+    font: bold 14px var(--open);
+    line-height: 28px;
+    color: var(--reng2);
+
+}
+
+
+#one form a{
+    padding: 20px 0 30px 0;
+    float: right;
+    text-decoration: none;
+    font: bold 14px "Proxima Nova";
+    line-height: 28px;
+    color: var(--reng3);   
+
+}
+
+
+
+#one form button{
+
+width: 352px;
+height: 55px;
+border-radius: 4px;
+filter: drop-shadow(0px 3px 0px #0075aa);
+background-color: #0896d7;
+margin-bottom: 50px;
+font: bold 22px var(--open);
+line-height: 28px;
+color: var(--reng1);
+text-align: center;
+filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.2));
+
+}
+
+
+    /* two css start */
+
+
+#two{
+    background-color: var(--reng1);
+    width:440px;
+    border-radius: 0 0 6px 6px;
+    
+}
+
+#two button{
+    width: 170px;
+    height: 36px;
+    border-radius: 0 0 6px 6px;
+    background-color: var(--reng4);
+    margin-bottom: 35px;
+    padding-right: 10px;
+
+}
+
+#two button:nth-child(1){
+    background-color: #3161a1;
+  }
+
+  #two button:nth-child(2){
+    width: 170px;
+    height: 36px;
+    background-color: #00aaf4;
+    margin-bottom: 35px; 
+   
+    
+
+}
+
+
+#two a:nth-child(1){
+    font: bold 14px var(--open);
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#two a:nth-child(1){
+    font: bold 14px var(--open);
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+   
+
+}
+
+
